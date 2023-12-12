@@ -1,4 +1,4 @@
-WebServiceInterfaceParser README
+WebServiceInterfaceParser
 
 Prerequisites:
 Python 3 must be installed on your system.
