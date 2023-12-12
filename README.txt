@@ -1,32 +1,32 @@
-# WebServiceInterfaceParser READ.ME
+WebServiceInterfaceParser README
 
-#Prerequisites
-- User must have python 3 installed on their system
-- The parser uses existing libraries within Python so no additional libraries are required
-- Must have well formed XML file to input
+Prerequisites:
+Python 3 must be installed on your system.
+The parser uses existing Python libraries, so no additional libraries are required.
+Ensure you have a well-formed XML file for input.
 
-#Description
-- The script parses XML representing a service interface 
-- It then converts this into a JSON format
-- Contains information regarding abstract methods, exceptions, arguments, visibility and return types
-- Python's ElementTree library is used for the XML parsing
+Description:
+The script parses XML representing a service interface.
+It converts the parsed information into a JSON format.
+The output includes details about abstract methods, exceptions, arguments, visibility, and return types.
+Python's ElementTree library is employed for XML parsing.
 
-#Explaining the script
-- The script extracts information from the abstract_method elements (method name, exceptions, arguments, visibility and return type)
-- It uses the xml.etree.ElementTree module to parse the XML string
-- The data extracted is formatted into a JSON structure
-- During the execution of the script any exceptions will be caught and then displayed through an error message
+Explaining the Script
+The script extracts information from the abstract_method elements, including method name, exceptions, arguments, visibility, and return type.
+It utilizes the xml.etree.ElementTree module to parse the XML string.
+Extracted data is formatted into a JSON structure.
+Any exceptions encountered during script execution will be caught and displayed through an error message.
 
-#How to use 
-- Open WebServiceInterfaceParser.py file
-- Ensure the input XML is in the same directory as the parsing script
-- Run the script 
-- Then go to the terminal and enter the following command 'python3 WebServiceInterfaceParser.py WebServiceInterface.xml' 
-- Input file_name can be changed within this command if desired to do so
+How to Use
+Open the WebServiceInterfaceParser.py file.
+Ensure the input XML file is in the same directory as the parsing script.
+Run the script.
+In the terminal, enter the following command: python3 WebServiceInterfaceParser.py WebServiceInterface.xml.
+You can change the file_name within this command if desired.
 
-#Output
-- Script will output the JSON and print it to the console
+Output:
+The script will output the JSON and print it to the console.
 
-#Author:Peter Nicholl
-#Date:05/11/23
+Author: Peter Nicholl
+Date: 05/11/23 
 
